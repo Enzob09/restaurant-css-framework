@@ -1,0 +1,132 @@
+body {
+    background: url("/assets/img/wpp2.jpg");
+    padding: 1% 5% 1% 5%;
+}
+
+.container {
+    border-radius: 10%;
+}
+
+/*HEADER */
+header {
+    background: url("/assets/img/restoimgv2.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+
+    .imgdog {
+        float: right;
+        z-index: 1;
+        width: 50px;
+    }
+
+    .imglogo {
+        padding: 5% 0%;
+        width: 25%;
+    }  
+}
+
+/*NAV */
+nav {
+    li {
+        margin: 0 3px;
+        &:hover {
+            background-color: #dc3545;
+            border-radius: 5px;
+            margin: 0 3px;
+        }
+    }
+
+    a {
+       border-radius: 5px;
+    }
+}
+
+/*MAIN */
+main {
+    background-color: rgb(214, 158, 106);
+    padding-bottom: 5%;
+
+    .jumbotron {
+        background: url("/assets/img/pzchamp-35\ .png");
+        color: white;
+        border-radius: 0;
+
+    }
+
+    .pannel1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/assets/img/lasagnes.jpeg"); /*Filtre transparent*/
+        background-size: cover; /*adapter l'image*/
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        min-height: 200px;
+
+        a {
+            text-decoration: none;
+        }
+
+        &:hover {
+            transform: scale(1.01);
+            text-decoration: none;
+        }
+
+        h3 {
+            color: white;
+            padding-top: 15%;
+        }
+    }
+
+    .pannel2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/assets/img/eofm.jpg"); /*Filtre transparent*/
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        min-height: 200px;
+        text-decoration: none;
+        a {
+            text-decoration: none;
+        }
+
+        &:hover {
+            transform: scale(1.01);
+            text-decoration: none;
+        }
+
+        h3 {
+            color: white;
+            padding-top: 15%;
+        }
+    }
+}
+
+footer {
+    margin: -17px 0 0 0;
+    background-color: #333;
+    color: white;
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        color: orangered;
+        &:hover{
+        text-decoration: none;
+        color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+
+    main {
+        margin-bottom: 2%;
+    }
+    
+    footer, h3 {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
