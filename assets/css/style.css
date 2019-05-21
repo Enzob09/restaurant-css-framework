@@ -1,9 +1,9 @@
-body { background: url("/assets/img/wpp2.jpg"); padding: 1% 5% 1% 5%; }
+body { background: url("assets/img/wpp2.jpg"); padding: 1% 5% 1% 5%; }
 
 .container { border-radius: 10%; }
 
 /*HEADER */
-header { background: url("/assets/img/restoimgv2.jpg"); background-repeat: no-repeat; height: auto; width: auto; }
+header { background: url("assets/img/restoimgv2.jpg"); background-repeat: no-repeat; height: auto; width: auto; }
 
 header .imgdog { float: right; z-index: 1; width: 50px; }
 
@@ -19,9 +19,9 @@ nav a { border-radius: 5px; }
 /*MAIN */
 main { background-color: #d69e6a; padding-bottom: 5%; }
 
-main .jumbotron { background: url("/assets/img/pzchamp-35 .png"); color: white; border-radius: 0; }
+main .jumbotron { background: url("assets/img/pzchamp-35 .png"); color: white; border-radius: 0; }
 
-main .pannel1 { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/assets/img/lasagnes.jpeg"); background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/assets/img/lasagnes.jpeg"); /*Filtre transparent*/ background-size: cover; /*adapter l'image*/ background-repeat: no-repeat; border-radius: 5px; min-height: 200px; }
+main .pannel1 { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("assets/img/lasagnes.jpeg"); background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("assets/img/lasagnes.jpeg"); /*Filtre transparent*/ background-size: cover; /*adapter l'image*/ background-repeat: no-repeat; border-radius: 5px; min-height: 200px; }
 
 main .pannel1 a { text-decoration: none; }
 
@@ -29,7 +29,7 @@ main .pannel1:hover { -webkit-transform: scale(1.01); transform: scale(1.01); te
 
 main .pannel1 h3 { color: white; padding-top: 15%; }
 
-main .pannel2 { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("/assets/img/eofm.jpg"); background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/assets/img/eofm.jpg"); /*Filtre transparent*/ background-size: cover; background-position: center center; background-repeat: no-repeat; border-radius: 5px; min-height: 200px; text-decoration: none; }
+main .pannel2 { background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("assets/img/eofm.jpg"); background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("assets/img/eofm.jpg"); /*Filtre transparent*/ background-size: cover; background-position: center center; background-repeat: no-repeat; border-radius: 5px; min-height: 200px; text-decoration: none; }
 
 main .pannel2 a { text-decoration: none; }
 
