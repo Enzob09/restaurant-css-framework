@@ -3,7 +3,7 @@ Réalisation d'un site restaurant avec bootstrap.
 
 Lien de l'url:  https://enzob09.github.io/restaurant-css-framework/ .
 
-**Réalisation du site web.**
+## Réalisation du site web.
 
 Dans cet exercice, j'ai utilisé Bootstrap qui m'a permis de mieux organiser mon site web sous forme de colones.
 
@@ -14,3 +14,9 @@ Il est possible de trouver plusieurs pages: Accueil, Carte, Photos, Restaurant, 
 Ce travail contient également un fichier SASS lié à son CSS qui m'a permis de mieux trier mon code.
 
 Agréable Lecture de mon exercice.
+
+## Contraintes.
+
+La pagination et le carroussel sur la page photo, je sais pas vraiment comment m'y prendre. Je n'ai pu qu'insérer 3 Photos.
+
+
