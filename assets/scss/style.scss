@@ -1,5 +1,5 @@
 body {
-    background: url("/assets/img/wpp2.jpg");
+    background: url("assets/img/wpp2.jpg");
     padding: 1% 5% 1% 5%;
 }
 
@@ -9,7 +9,7 @@ body {
 
 /*HEADER */
 header {
-    background: url("/assets/img/restoimgv2.jpg");
+    background: url("assets/img/restoimgv2.jpg");
     background-repeat: no-repeat;
     height: auto;
     width: auto;
@@ -48,14 +48,14 @@ main {
     padding-bottom: 5%;
 
     .jumbotron {
-        background: url("/assets/img/pzchamp-35\ .png");
+        background: url("assets/img/pzchamp-35\ .png");
         color: white;
         border-radius: 0;
 
     }
 
     .pannel1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/assets/img/lasagnes.jpeg"); /*Filtre transparent*/
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("assets/img/lasagnes.jpeg"); /*Filtre transparent*/
         background-size: cover; /*adapter l'image*/
         background-repeat: no-repeat;
         border-radius: 5px;
@@ -77,7 +77,7 @@ main {
     }
 
     .pannel2 {
-        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("/assets/img/eofm.jpg"); /*Filtre transparent*/
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("assets/img/eofm.jpg"); /*Filtre transparent*/
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
